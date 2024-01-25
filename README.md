@@ -14,7 +14,13 @@ Add-on for Anki that adds quick typing tests to any card. Shows an additional di
 
 ## Usage
 
-Taipingu will display a dialogue upon every new card. Type the associated word and press `Enter` to check correctness. If it is correct, press `Enter` again to close the dialogue.
+Taipingu will display a dialogue upon every new card. Type the associated word and press `Enter` to check correctness. If it is correct, press `Enter` again to close the dialogue. If you are able to get it right and wish to close the dialogue, press `Esc`.
+
+<p align="center">
+<img width="640" alt="default" src="https://github.com/kk-min/anki-taipingu/assets/76023265/ca5d4115-6844-4489-ad4b-b6751727a719">
+<img width="640" alt="incorrect" src="https://github.com/kk-min/anki-taipingu/assets/76023265/b5779579-f96f-4a30-80da-8a8282adc6a9">
+<img width="640" alt="correct" src="https://github.com/kk-min/anki-taipingu/assets/76023265/ce330edf-a10e-4330-9b28-e3750a4436d9">
+</p>
 
 Taipingu can be enabled/disabled via `Tools > Taipingu > Enable typing test`.
 
