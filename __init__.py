@@ -32,9 +32,11 @@ class TypingDialog(QDialog):
     def check(self):
         userInput = self.lineedit.text()
         if userInput == self.ans:
-            showInfo("Correct!")
+            self.label.setStyleSheet("font-size: 24px; text-align: center; width: 300px; color: #70C270;")
+            self.label.setText(self.ans + " - Correct!")
         else:
-            showCritical("Incorrect!")
+            self.label.setStyleSheet("font-size: 24px; text-align: center; width: 300px; color: #E50000;")
+            self.label.setText(self.ans + " - Incorrect!")
 
     def exit(self):
         self.close()
