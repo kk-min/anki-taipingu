@@ -1,6 +1,6 @@
 # Anki-Taipingu (タイピング/Typing)
 
-Add-on for Anki that allows typing practice on existing cards. Shows an additional dialogue box when reviewing a card that asks for typed input that validates against the shown content. Great for practising typing words in addition to general studying.
+Add-on for Anki that adds quick typing tests to any card. Shows an additional dialogue box when reviewing a card that asks for typed input that validates against the shown content. Great for practising typing words in addition to general studying.
 
 ## Requirements
 
