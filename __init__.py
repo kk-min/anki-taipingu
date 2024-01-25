@@ -51,7 +51,7 @@ def checkable(title: str, on_click: Callable[[bool], None]) -> QAction:
 def typingTest(card):
     if not config.get('enable_typing_test'):
         return
-    keyList = ['Expression', 'Key', 'Spelling']
+    keyList = config.get('trigger_fields')
     ans = "N/A"
     for key in keyList:
         if key in card.note():

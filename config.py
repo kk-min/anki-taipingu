@@ -1,23 +1,19 @@
 from aqt import mw
 
-DEFAULT_CONFIG = {
-    'enable_typing_test': False,
-}
+tag = mw.addonManager.addonFromModule(__name__)
 
 def run_on_configuration_change(function):
-    mw.addonManager.setConfigUpdatedAction(__name__, lambda *_: function())
+    mw.addonManager.setConfigUpdatedAction(tag, lambda *_: function())
 
 class Config:
     def load(self):
-        self.config = mw.addonManager.getConfig(__name__)
-        if self.config is None:
-            self.config = DEFAULT_CONFIG
+        self.config = mw.addonManager.getConfig(tag)
     def get(self, key):
         return self.config.get(key)
 
     def set(self, key, value):
         self.config[key] = value
-        mw.addonManager.writeConfig(__name__, self.config)
+        mw.addonManager.writeConfig(tag, self.config)
 
     @property
     def enable_typing_test(self):

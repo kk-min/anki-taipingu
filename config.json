@@ -1,0 +1,8 @@
+{
+  "enable_typing_test": false,
+    "trigger_fields": [
+        "Expression",
+        "Key",
+        "Spelling"
+    ]
+}
