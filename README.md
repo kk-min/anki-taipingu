@@ -11,3 +11,13 @@ Add-on for Anki that allows typing practice on existing cards. Shows an addition
 - Put the source folder into your `Anki2/addons21/` folder.
 - `Tools > Add-ons > anki-taipingu`, select `Config` and add the field name of your card that contains the relevant text you wish to test into the `trigger_fields` array.
 - To find the field name of a particular card type, go to `Browse > Note Types > [Card Name]` and check which field contains the relevant text.
+
+## Usage
+
+Taipingu will display a dialogue upon every new card. Type the associated word and press `Enter` to check correctness. If it is correct, press `Enter` again to close the dialogue.
+
+Taipingu can be enabled/disabled via `Tools > Taipingu > Enable typing test`.
+
+## Acknowledgements
+
+- [fsrs4anki-helper](https://github.com/open-spaced-repetition/fsrs4anki-helper)
