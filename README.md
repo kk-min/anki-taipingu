@@ -13,7 +13,7 @@ Add-on for Anki that adds quick typing tests to any card. Shows an additional di
 
 ## Configuration
 
-- `Tools > Add-ons > anki-taipingu`, select `Config` and add the field name of your card that contains the relevant text you wish to test into the `trigger_fields` array.
+- `Tools > Add-ons > Taipingu Quick Typing Tests`, select `Config` and add the field name of your card that contains the relevant text you wish to test into the `trigger_fields` array.
 - To find the field name of a particular card type, go to `Browse > Note Types > [Card Name]` and check which field contains the relevant text.
 
 ## Usage
